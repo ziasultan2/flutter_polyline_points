@@ -11,6 +11,9 @@ class PolylineResult {
   ///
   /// returns OK if the api call is successful
   String status;
+  
+  static double distance;
+  static double duration;
 
   /// list of decoded points
   List<PointLatLng> points;
